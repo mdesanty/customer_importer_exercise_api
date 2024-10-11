@@ -1,0 +1,190 @@
+[
+  {
+    "customerId": 19,
+    "firstName": "Ella",
+    "lastName": "Garcia",
+    "emailAddresses": [
+      {
+        "emailAddressId": 22,
+        "emailAddress": "ella.garcia@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 20,
+        "phoneNumber": "333-444-5555"
+      },
+      {
+        "phoneNumberId": 21,
+        "phoneNumber": "123-123-1234"
+      }
+    ],
+    "address": {
+      "addressId": 19,
+      "street": "808 Oakridge St",
+      "city": "Hillside",
+      "state": "MI",
+      "zip": "77889"
+    }
+  },
+  {
+    "customerId": 11,
+    "firstName": "Emily",
+    "lastName": "Joans",
+    "emailAddresses": [
+      {
+        "emailAddressId": 14,
+        "emailAddress": "emily.joans@hotmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 22,
+        "phoneNumber": "123-987-6543"
+      }
+    ],
+    "address": {
+      "addressId": 11,
+      "street": "909 Highland St",
+      "city": "Westside",
+      "state": "KY",
+      "zip": "88990"
+    }
+  },
+  {
+    "customerId": 20,
+    "firstName": "Noah",
+    "lastName": "Taylor",
+    "emailAddresses": [
+      {
+        "emailAddressId": 23,
+        "emailAddress": "noah.taylor@gmail.com"
+      },
+      {
+        "emailAddressId": 24,
+        "emailAddress": "nt@gmail.com"
+      },
+      {
+        "emailAddressId": 25,
+        "emailAddress": "ndawg@gmail.com"
+      },
+      {
+        "emailAddressId": 26,
+        "emailAddress": "no-ah@aol.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 23,
+        "phoneNumber": "666-777-8888"
+      }
+    ],
+    "address": {
+      "addressId": 20,
+      "street": "1010 Magnolia St",
+      "city": "Greenville",
+      "state": "OH",
+      "zip": "99001"
+    }
+  },
+  {
+    "customerId": 7,
+    "firstName": "Lilian",
+    "lastName": "King",
+    "emailAddresses": [
+      {
+        "emailAddressId": 8,
+        "emailAddress": "lily.king@gmail.com"
+      },
+      {
+        "emailAddressId": 30,
+        "emailAddress": "lily@yahoo.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 7,
+        "phoneNumber": "444-555-0909"
+      }
+    ],
+    "address": {
+      "addressId": 7,
+      "street": "1111 Aspen St",
+      "city": "Laketown",
+      "state": "CO",
+      "zip": "11234"
+    }
+  },
+  {
+    "customerId": 21,
+    "firstName": "Mia",
+    "lastName": "Thomas",
+    "emailAddresses": [
+      {
+        "emailAddressId": 27,
+        "emailAddress": "mia.thomas@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 24,
+        "phoneNumber": "777-888-9999"
+      }
+    ],
+    "address": {
+      "addressId": 21,
+      "street": "1212 Chestnut St",
+      "city": "Clearwater",
+      "state": "IL",
+      "zip": "22345"
+    }
+  },
+  {
+    "customerId": 22,
+    "firstName": "Ethan",
+    "lastName": "Jackson",
+    "emailAddresses": [
+      {
+        "emailAddressId": 28,
+        "emailAddress": "ethan.jackson@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 25,
+        "phoneNumber": "999-111-1234"
+      }
+    ],
+    "address": {
+      "addressId": 22,
+      "street": "1313 Pinecone St",
+      "city": "Springfield",
+      "state": "MO",
+      "zip": "33456"
+    }
+  },
+  {
+    "customerId": 23,
+    "firstName": "Abigail",
+    "lastName": "Martinez",
+    "emailAddresses": [
+      {
+        "emailAddressId": 29,
+        "emailAddress": "abigail.martinez@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 26,
+        "phoneNumber": "888-999-7777"
+      }
+    ],
+    "address": {
+      "addressId": 23,
+      "street": "1414 Birchwood St",
+      "city": "Palmcity",
+      "state": "AZ",
+      "zip": "44567"
+    }
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "customerId": 1,
+    "firstName": "Henry",
+    "lastName": "White",
+    "emailAddresses": [
+      {
+        "emailAddressId": 1,
+        "emailAddress": "henry.white@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 1,
+        "phoneNumber": "123-111-4567"
+      }
+    ],
+    "address": {
+      "addressId": 1,
+      "street": "1515 Redwood St",
+      "city": "Bridgetown",
+      "state": "NJ",
+      "zip": "55678"
+    }
+  },
+  {
+    "customerId": 2,
+    "firstName": "Zoe",
+    "lastName": "Harris",
+    "emailAddresses": [
+      {
+        "emailAddressId": 2,
+        "emailAddress": "zoe.harris@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 2,
+        "phoneNumber": "222-333-6666"
+      }
+    ],
+    "address": {
+      "addressId": 2,
+      "street": "1616 Maplewood St",
+      "city": "Seaside",
+      "state": "NC",
+      "zip": "66789"
+    }
+  },
+  {
+    "customerId": 3,
+    "firstName": "Grace",
+    "lastName": "Clark",
+    "emailAddresses": [
+      {
+        "emailAddressId": 3,
+        "emailAddress": "grace.clark@gmail.com"
+      },
+      {
+        "id": 4,
+        "emailAddress": "gclark@aol.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 3,
+        "phoneNumber": "444-555-1212"
+      }
+    ],
+    "address": {
+      "addressId": 3,
+      "street": "1717 Willow St",
+      "city": "Hilltop",
+      "state": "TN",
+      "zip": "77890"
+    }
+  },
+  {
+    "customerId": 4,
+    "firstName": "Alexander",
+    "lastName": "Lewis",
+    "emailAddresses": [
+      {
+        "emailAddressId": 5,
+        "emailAddress": "alexander.lewis@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 4,
+        "phoneNumber": "666-777-1313"
+      }
+    ],
+    "address": {
+      "addressId": 4,
+      "street": "1818 Cedarwood St",
+      "city": "Bayside",
+      "state": "PA",
+      "zip": "88901"
+    }
+  },
+  {
+    "customerId": 5,
+    "firstName": "Aiden",
+    "lastName": "Walker",
+    "emailAddresses": [
+      {
+        "emailAddressId": 6,
+        "emailAddress": "aiden.walker@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 5,
+        "phoneNumber": "999-888-3333"
+      }
+    ],
+    "address": {
+      "addressId": 5,
+      "street": "1919 Oakwood St",
+      "city": "Lakeshore",
+      "state": "UT",
+      "zip": "99012"
+    }
+  },
+  {
+    "customerId": 6,
+    "firstName": "Scarlett",
+    "lastName": "Robinson",
+    "emailAddresses": [
+      {
+        "emailAddressId": 7,
+        "emailAddress": "scarlett.robinson@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 6,
+        "phoneNumber": "222-123-9999"
+      }
+    ],
+    "address": {
+      "addressId": 6,
+      "street": "2020 Cypress St",
+      "city": "Portville",
+      "state": "AL",
+      "zip": "11223"
+    }
+  },
+  {
+    "customerId": 7,
+    "firstName": "Lily",
+    "lastName": "King",
+    "emailAddresses": [
+      {
+        "emailAddressId": 8,
+        "emailAddress": "lily.king@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 7,
+        "phoneNumber": "444-123-1111"
+      }
+    ],
+    "address": {
+      "addressId": 7,
+      "street": "2121 Birchwood St",
+      "city": "Riverside",
+      "state": "MS",
+      "zip": "33456"
+    }
+  },
+  {
+    "customerId": 8,
+    "firstName": "Sebastian",
+    "lastName": "Scott",
+    "emailAddresses": [
+      {
+        "emailAddressId": 9,
+        "emailAddress": "sebastian.scott@gmail.com"
+      },
+      {
+        "emailAddressId": 10,
+        "emailAddress": "sscott@gmail.com"
+      },
+      {
+        "emailAddressId": 11,
+        "emailAddress": "s.scotty@hotmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 8,
+        "phoneNumber": "555-222-4545"
+      }
+    ],
+    "address": {
+      "addressId": 8,
+      "street": "2323 Chestnut St",
+      "city": "Meadowtown",
+      "state": "VT",
+      "zip": "44567"
+    }
+  }
+]

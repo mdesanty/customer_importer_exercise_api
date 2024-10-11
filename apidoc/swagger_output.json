@@ -1,0 +1,129 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Customers API",
+    "description": "API to get customer data.",
+    "version": "1.0.0"
+  },
+  "host": "https://customer-importer-exercise-api-c36ac5fc1e91.herokuapp.com/",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/customers/": {
+      "get": {
+        "tags": [
+          "Customers"
+        ],
+        "description": "Endpoint to get customers data.",
+        "parameters": [
+          {
+            "name": "date",
+            "in": "query",
+            "description": "The date to get customers data for. Valid values are the dates from yesterday to three days ago. Defaults to yesterday&#58;s date when not provided.",
+            "required": false,
+            "type": "string",
+            "schema": {
+              "type": "string",
+              "example": "2024-10-13"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Customers data retrieved successfully.",
+            "schema": {
+              "$ref": "#/definitions/Customers"
+            }
+          },
+          "400": {
+            "description": "Invalid date. Please try again."
+          },
+          "500": {
+            "description": "An error occurred. Please try again later."
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Customers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "customerId": {
+            "type": "number",
+            "example": 1
+          },
+          "firstName": {
+            "type": "string",
+            "example": "Henry"
+          },
+          "lastName": {
+            "type": "string",
+            "example": "White"
+          },
+          "emailAddresses": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "emailAddressId": {
+                  "type": "number",
+                  "example": 3
+                },
+                "emailAddress": {
+                  "type": "string",
+                  "example": "henry@yahoo.com"
+                }
+              }
+            }
+          },
+          "phoneNumbers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "phoneNumberId": {
+                  "type": "number",
+                  "example": 2
+                },
+                "phoneNumber": {
+                  "type": "string",
+                  "example": "123-222-4567"
+                }
+              }
+            }
+          },
+          "address": {
+            "type": "object",
+            "properties": {
+              "addressId": {
+                "type": "number",
+                "example": 1
+              },
+              "street": {
+                "type": "string",
+                "example": "1515 Redwood St"
+              },
+              "city": {
+                "type": "string",
+                "example": "Bridgetown"
+              },
+              "state": {
+                "type": "string",
+                "example": "NJ"
+              },
+              "zip": {
+                "type": "string",
+                "example": "55678"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

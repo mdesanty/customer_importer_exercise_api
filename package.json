@@ -1,0 +1,29 @@
+{
+  "name": "customer-importer-exercise-api",
+  "version": "1.0.0",
+  "description": "API to power the customer_importer_exercise app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "start-dev": "nodemon ./src/index.js",
+    "swagger-autogen": "node ./swagger.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdesanty/customer_importer_exercise_api.git"
+  },
+  "author": "Michael DeSanty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdesanty/customer_importer_exercise_api/issues"
+  },
+  "homepage": "https://github.com/mdesanty/customer_importer_exercise_api#readme",
+  "dependencies": {
+    "express": "^4.21.1",
+    "fs": "^0.0.1-security",
+    "moment": "^2.30.1",
+    "swagger-autogen": "^2.23.7",
+    "swagger-ui-express": "^4.6.0"
+  }
+}

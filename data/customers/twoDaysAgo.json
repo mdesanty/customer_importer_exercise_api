@@ -1,0 +1,245 @@
+[
+  {
+    "customerId": 9,
+    "firstName": "Jonothan",
+    "lastName": "Doe",
+    "emailAddresses": [
+      {
+        "emailAddressId": 12,
+        "emailAddress": "john.doe@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 9,
+        "phoneNumber": "123-456-7890"
+      },
+      {
+        "phoneNumberId": 10,
+        "phoneNumber": "098-765-4321"
+      }
+    ],
+    "address": {
+      "addressId": 9,
+      "street": "123 Main St",
+      "city": "Anytown",
+      "state": "NY",
+      "zip": "12345"
+    }
+  },
+  {
+    "customerId": 10,
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "emailAddresses": [
+      {
+        "emailAddressId": 13,
+        "emailAddress": "jane.smith@yahoo.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 11,
+        "phoneNumber": "987-654-3210"
+      }
+    ],
+    "address": {
+      "addressId": 10,
+      "street": "456 Oak St",
+      "city": "Sometown",
+      "state": "CA",
+      "zip": "67890"
+    }
+  },
+  {
+    "customerId": 11,
+    "firstName": "Emily",
+    "lastName": "Jones",
+    "emailAddresses": [
+      {
+        "emailAddressId": 14,
+        "emailAddress": "emily.jones@hotmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 12,
+        "phoneNumber": "555-123-4567"
+      }
+    ],
+    "address": {
+      "addressId": 11,
+      "street": "789 Pine St",
+      "city": "Smalltown",
+      "state": "TX",
+      "zip": "54321"
+    }
+  },
+  {
+    "customerId": 12,
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "emailAddresses": [
+      {
+        "emailAddressId": 15,
+        "emailAddress": "michael.brown@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 13,
+        "phoneNumber": "444-987-6543"
+      }
+    ],
+    "address": {
+      "addressId": 12,
+      "street": "101 Maple St",
+      "city": "Bigcity",
+      "state": "FL",
+      "zip": "98765"
+    }
+  },
+  {
+    "customerId": 13,
+    "firstName": "Sophia",
+    "lastName": "Williams",
+    "emailAddresses": [],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 14,
+        "phoneNumber": "333-222-1111"
+      }
+    ],
+    "address": {
+      "addressId": 13,
+      "street": "202 Cedar St",
+      "city": "Townville",
+      "state": "GA",
+      "zip": "11223"
+    }
+  },
+  {
+    "customerId": 14,
+    "firstName": "Oliver",
+    "lastName": "Johnson",
+    "emailAddresses": [
+      {
+        "emailAddressId": 16,
+        "emailAddress": "oliver.johnson@gmail.com"
+      },
+      {
+        "emailAddressId": 17,
+        "emailAddress": "oj@yahoo.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 15,
+        "phoneNumber": "111-222-3333"
+      }
+    ],
+    "address": {
+      "addressId": 14,
+      "street": "303 Elm St",
+      "city": "Villagetown",
+      "state": "VA",
+      "zip": "22435"
+    }
+  },
+  {
+    "customerId": 15,
+    "firstName": "Liam",
+    "lastName": "Davis",
+    "emailAddresses": [
+      {
+        "emailAddressId": 18,
+        "emailAddress": "liam.davis@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 16,
+        "phoneNumber": "123-456-9999"
+      }
+    ],
+    "address": {
+      "addressId": 15,
+      "street": "404 Birch St",
+      "city": "Capecity",
+      "state": "MA",
+      "zip": "33445"
+    }
+  },
+  {
+    "customerId": 16,
+    "firstName": "Ava",
+    "lastName": "Miller",
+    "emailAddresses": [
+      {
+        "emailAddressId": 19,
+        "emailAddress": "ava.miller@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 17,
+        "phoneNumber": "555-666-7777"
+      }
+    ],
+    "address": {
+      "addressId": 16,
+      "street": "505 Spruce St",
+      "city": "Oldtown",
+      "state": "OR",
+      "zip": "44556"
+    }
+  },
+  {
+    "customerId": 17,
+    "firstName": "Charlotte",
+    "lastName": "Wilson",
+    "emailAddresses": [
+      {
+        "emailAddressId": 20,
+        "emailAddress": "charlotte.wilson@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 18,
+        "phoneNumber": "111-888-9999"
+      }
+    ],
+    "address": {
+      "addressId": 17,
+      "street": "606 Ash St",
+      "city": "Beachville",
+      "state": "SC",
+      "zip": "55667"
+    }
+  },
+  {
+    "customerId": 18,
+    "firstName": "James",
+    "lastName": "Martinez",
+    "emailAddresses": [
+      {
+        "emailAddressId": 21,
+        "emailAddress": "james.martinez@gmail.com"
+      }
+    ],
+    "phoneNumbers": [
+      {
+        "phoneNumberId": 19,
+        "phoneNumber": "222-333-4444"
+      }
+    ],
+    "address": {
+      "addressId": 18,
+      "street": "707 Willow St",
+      "city": "Riverside",
+      "state": "WA",
+      "zip": "66778"
+    }
+  }
+]
